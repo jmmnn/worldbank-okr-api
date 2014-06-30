@@ -221,8 +221,7 @@ if __name__ == "__main__":
         okr_id = record['okr_id'][0]
         jsonRecord = {okr_id: record}
 
-        with open(filePath, 'r') as f:
-            print f
+        with open(filePath) as f:
             data = json.load(f)
 
         data.update(jsonRecord)
