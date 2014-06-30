@@ -1,0 +1,280 @@
+<record>
+<header>
+<identifier>oai:openknowledge.worldbank.org:10986/2226</identifier>
+<datestamp>2014-05-06T18:38:06Z</datestamp>
+<setspec>com_10986_2122</setspec>
+<setspec>com_10986_4</setspec>
+<setspec>col_10986_2142</setspec>
+</header>
+<metadata><uketd_dc:uketddc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:uketd_dc="http://naca.central.cranfield.ac.uk/ethos-oai/2.0/" xmlns:uketdterms="http://naca.central.cranfield.ac.uk/ethos-oai/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://naca.central.cranfield.ac.uk/ethos-oai/2.0/ http://naca.central.cranfield.ac.uk/ethos-oai/2.0/uketd_dc.xsd">
+<dc:date>2012-03-19T08:43:52Z</dc:date>
+<dc:date>2012-03-19T08:43:52Z</dc:date>
+<dc:date>2012-01-12</dc:date>
+<dcterms:issued>2012-01-12</dcterms:issued>
+<dcterms:isreferencedby xsi:type="dcterms:URI">http://hdl.handle.net/10986/2226</dcterms:isreferencedby>
+<dcterms:abstract>Health indicators in Ethiopia,
+            particularly on child health and malaria, have improved
+            significantly in recent years, with the next challenge now
+            focused on improving maternal health indicators.
+            Improvements in child health and malaria in particular can
+            be attributed to strong government commitment towards health
+            results, reflected in a number of notable policies and
+            programs related to Human Resources for Health (HRH), in
+            particular the health extension worker program. However,
+            indicators related to maternal health remain problematic.
+            Ethiopia has one of the lowest levels of assisted deliveries
+            in the region. Although increases in the number of health
+            workers particularly in rural areas may have contributed to
+            improving access to some health services, it is in the
+            government's interest to further improve the stock,
+            distribution, and performance of relevant health workers in
+            Ethiopia, particularly to bring about improvement in access
+            to maternal health services for the poor. This document
+            reviews the current HRH situation in Ethiopia, summarizes
+            the evidence on population use of select health services,
+            and offers relevant policy options to assist the government
+            finalize its new human resources strategy and address
+            remaining health challenges.</dcterms:abstract>
+<dc:title>The Health Workforce in Ethiopia :
+            Addressing the Remaining Challenges</dc:title>
+<dc:creator>Feysia, Berhanu</dc:creator>
+<dc:creator>Herbst, Christopher H.</dc:creator>
+<dc:creator>Lemma, Wuleta</dc:creator>
+<dc:creator>Soucat, Agnes</dc:creator>
+<dc:subject>ABORTION</dc:subject>
+<dc:subject>ABORTION CARE</dc:subject>
+<dc:subject>ACCESS TO CARE</dc:subject>
+<dc:subject>ACCESS TO EDUCATION</dc:subject>
+<dc:subject>ACCESS TO HEALTH CARE</dc:subject>
+<dc:subject>ACCESS TO HEALTH SERVICES</dc:subject>
+<dc:subject>AGED</dc:subject>
+<dc:subject>ANTENATAL CARE</dc:subject>
+<dc:subject>BABIES</dc:subject>
+<dc:subject>BASIC HEALTH</dc:subject>
+<dc:subject>BASIC HEALTH SERVICES</dc:subject>
+<dc:subject>BULLETIN</dc:subject>
+<dc:subject>CERTIFICATION</dc:subject>
+<dc:subject>CHILD HEALTH</dc:subject>
+<dc:subject>CITIES</dc:subject>
+<dc:subject>CLINICS</dc:subject>
+<dc:subject>COMMUNITY HEALTH</dc:subject>
+<dc:subject>COUNTRY OF DESTINATION</dc:subject>
+<dc:subject>DEATH RATE</dc:subject>
+<dc:subject>DEATHS</dc:subject>
+<dc:subject>DECISION MAKING</dc:subject>
+<dc:subject>DEVELOPING COUNTRIES</dc:subject>
+<dc:subject>DISSEMINATION</dc:subject>
+<dc:subject>DOCTORS</dc:subject>
+<dc:subject>DRUGS</dc:subject>
+<dc:subject>EMERGENCY OBSTETRIC CARE</dc:subject>
+<dc:subject>EMPLOYMENT</dc:subject>
+<dc:subject>ENVIRONMENTAL HEALTH</dc:subject>
+<dc:subject>EQUALITY OF OPPORTUNITY</dc:subject>
+<dc:subject>EQUITABLE ACCESS</dc:subject>
+<dc:subject>EYE CARE</dc:subject>
+<dc:subject>FAMILIES</dc:subject>
+<dc:subject>FAMILY PLANNING</dc:subject>
+<dc:subject>FEMALE</dc:subject>
+<dc:subject>FEMALES</dc:subject>
+<dc:subject>GENDER</dc:subject>
+<dc:subject>GENERAL PRACTITIONER</dc:subject>
+<dc:subject>GENERAL PRACTITIONERS</dc:subject>
+<dc:subject>GROSS DOMESTIC PRODUCT</dc:subject>
+<dc:subject>HEALTH CARE</dc:subject>
+<dc:subject>HEALTH CARE FACILITIES</dc:subject>
+<dc:subject>HEALTH CARE PROVIDER</dc:subject>
+<dc:subject>HEALTH CARE SERVICES</dc:subject>
+<dc:subject>HEALTH CENTERS</dc:subject>
+<dc:subject>HEALTH CENTRE</dc:subject>
+<dc:subject>HEALTH EXPENDITURE</dc:subject>
+<dc:subject>HEALTH EXPENDITURES</dc:subject>
+<dc:subject>HEALTH EXTENSION</dc:subject>
+<dc:subject>HEALTH FACILITIES</dc:subject>
+<dc:subject>HEALTH INDICATORS</dc:subject>
+<dc:subject>HEALTH MANAGEMENT</dc:subject>
+<dc:subject>HEALTH MESSAGES</dc:subject>
+<dc:subject>HEALTH ORGANIZATION</dc:subject>
+<dc:subject>HEALTH OUTCOMES</dc:subject>
+<dc:subject>HEALTH POSTS</dc:subject>
+<dc:subject>HEALTH PROFESSIONAL</dc:subject>
+<dc:subject>HEALTH PROFESSIONALS</dc:subject>
+<dc:subject>HEALTH PROVIDERS</dc:subject>
+<dc:subject>HEALTH RESULTS</dc:subject>
+<dc:subject>HEALTH SECTOR</dc:subject>
+<dc:subject>HEALTH SERVICE</dc:subject>
+<dc:subject>HEALTH SERVICES</dc:subject>
+<dc:subject>HEALTH SYSTEMS</dc:subject>
+<dc:subject>HEALTH SYSTEMS STRENGTHENING</dc:subject>
+<dc:subject>HEALTH TRAINING</dc:subject>
+<dc:subject>HEALTH WORKFORCE</dc:subject>
+<dc:subject>HEALTH-SEEKING BEHAVIOR</dc:subject>
+<dc:subject>HIV</dc:subject>
+<dc:subject>HIV/AIDS</dc:subject>
+<dc:subject>HOME VISITS</dc:subject>
+<dc:subject>HOSPITAL</dc:subject>
+<dc:subject>HOSPITALS</dc:subject>
+<dc:subject>HOUSEHOLD INCOME</dc:subject>
+<dc:subject>HR</dc:subject>
+<dc:subject>HUMAN IMMUNODEFICIENCY VIRUS</dc:subject>
+<dc:subject>HUMAN RESOURCE MANAGEMENT</dc:subject>
+<dc:subject>HUMAN RESOURCES</dc:subject>
+<dc:subject>IMMIGRATION</dc:subject>
+<dc:subject>IMMUNIZATION</dc:subject>
+<dc:subject>IMMUNODEFICIENCY</dc:subject>
+<dc:subject>INCOME</dc:subject>
+<dc:subject>INFANT</dc:subject>
+<dc:subject>INFANT HEALTH</dc:subject>
+<dc:subject>INFANT HEALTH CARE</dc:subject>
+<dc:subject>INFORMATION SYSTEM</dc:subject>
+<dc:subject>INTERVENTION</dc:subject>
+<dc:subject>IRON</dc:subject>
+<dc:subject>JOB SECURITY</dc:subject>
+<dc:subject>LABOR FORCE</dc:subject>
+<dc:subject>LABOR MARKET</dc:subject>
+<dc:subject>LABOR MARKETS</dc:subject>
+<dc:subject>LABORATORY WORKERS</dc:subject>
+<dc:subject>LARGE POPULATION</dc:subject>
+<dc:subject>LEGAL STATUS</dc:subject>
+<dc:subject>LIVE BIRTHS</dc:subject>
+<dc:subject>LIVING CONDITIONS</dc:subject>
+<dc:subject>LOCAL COMMUNITY</dc:subject>
+<dc:subject>MALARIA</dc:subject>
+<dc:subject>MALARIA CASES</dc:subject>
+<dc:subject>MATERNAL AND CHILD HEALTH</dc:subject>
+<dc:subject>MATERNAL CARE</dc:subject>
+<dc:subject>MATERNAL HEALTH</dc:subject>
+<dc:subject>MATERNAL HEALTH SERVICES</dc:subject>
+<dc:subject>MATERNAL MORTALITY</dc:subject>
+<dc:subject>MATERNAL MORTALITY RATIO</dc:subject>
+<dc:subject>MATERNAL MORTALITY RATIOS</dc:subject>
+<dc:subject>MATERNITY CARE</dc:subject>
+<dc:subject>MATERNITY LEAVE</dc:subject>
+<dc:subject>MEDICAL CARE</dc:subject>
+<dc:subject>MEDICAL DOCTOR</dc:subject>
+<dc:subject>MEDICAL DOCTORS</dc:subject>
+<dc:subject>MEDICAL EDUCATION</dc:subject>
+<dc:subject>MEDICAL SCHOOL</dc:subject>
+<dc:subject>MEDICAL SCHOOLS</dc:subject>
+<dc:subject>MEDICINE</dc:subject>
+<dc:subject>MIDWIFE</dc:subject>
+<dc:subject>MIDWIFERY</dc:subject>
+<dc:subject>MIDWIVES</dc:subject>
+<dc:subject>MIGRANTS</dc:subject>
+<dc:subject>MIGRATION</dc:subject>
+<dc:subject>MILLENNIUM DEVELOPMENT GOALS</dc:subject>
+<dc:subject>MINISTRY OF EDUCATION</dc:subject>
+<dc:subject>MINISTRY OF HEALTH</dc:subject>
+<dc:subject>MINORITY</dc:subject>
+<dc:subject>MORBIDITY</dc:subject>
+<dc:subject>MORTALITY</dc:subject>
+<dc:subject>MORTALITY RATE</dc:subject>
+<dc:subject>MOTHER</dc:subject>
+<dc:subject>MOTHERS</dc:subject>
+<dc:subject>NEONATAL HEALTH</dc:subject>
+<dc:subject>NEONATAL MORTALITY</dc:subject>
+<dc:subject>NEWBORN</dc:subject>
+<dc:subject>NEWBORN CARE</dc:subject>
+<dc:subject>NURSE</dc:subject>
+<dc:subject>NURSES</dc:subject>
+<dc:subject>NURSING</dc:subject>
+<dc:subject>OBSTETRICS</dc:subject>
+<dc:subject>PARAMEDICS</dc:subject>
+<dc:subject>PATIENT</dc:subject>
+<dc:subject>PATIENT SATISFACTION</dc:subject>
+<dc:subject>PATIENTS</dc:subject>
+<dc:subject>PHARMACIST</dc:subject>
+<dc:subject>PHARMACISTS</dc:subject>
+<dc:subject>PHARMACY</dc:subject>
+<dc:subject>PHYSICIAN</dc:subject>
+<dc:subject>PHYSICIANS</dc:subject>
+<dc:subject>POLICY DISCUSSIONS</dc:subject>
+<dc:subject>POLICY IMPLICATIONS</dc:subject>
+<dc:subject>POLICY-MAKING PROCESS</dc:subject>
+<dc:subject>POPULATION DATA</dc:subject>
+<dc:subject>POSTNATAL CARE</dc:subject>
+<dc:subject>POTENTIAL MIGRANTS</dc:subject>
+<dc:subject>POTENTIAL USERS</dc:subject>
+<dc:subject>PREGNANCY</dc:subject>
+<dc:subject>PREGNANT MOTHERS</dc:subject>
+<dc:subject>PREMATURE DEATH</dc:subject>
+<dc:subject>PREVALENCE</dc:subject>
+<dc:subject>PROBABILITY</dc:subject>
+<dc:subject>PROGRESS</dc:subject>
+<dc:subject>PUBLIC HEALTH</dc:subject>
+<dc:subject>PUBLIC HEALTH PROVISION</dc:subject>
+<dc:subject>PUBLIC HEALTH WORKERS</dc:subject>
+<dc:subject>PUSH FACTORS</dc:subject>
+<dc:subject>QUALITY ASSURANCE</dc:subject>
+<dc:subject>RURAL AREAS</dc:subject>
+<dc:subject>RURAL COMMUNITIES</dc:subject>
+<dc:subject>RURAL RESIDENTS</dc:subject>
+<dc:subject>SANITATION</dc:subject>
+<dc:subject>SCHOOL CURRICULA</dc:subject>
+<dc:subject>SCHOOL HEALTH</dc:subject>
+<dc:subject>SCHOOL STUDENTS</dc:subject>
+<dc:subject>SECONDARY EDUCATION</dc:subject>
+<dc:subject>SECONDARY SCHOOL</dc:subject>
+<dc:subject>SECONDARY SCHOOL EDUCATION</dc:subject>
+<dc:subject>SEX</dc:subject>
+<dc:subject>SEXUAL VIOLENCE</dc:subject>
+<dc:subject>SHORT SUPPLY</dc:subject>
+<dc:subject>SICK LEAVE</dc:subject>
+<dc:subject>SOCIOECONOMIC DIFFERENCES</dc:subject>
+<dc:subject>SPECIALIST</dc:subject>
+<dc:subject>SPECIALISTS</dc:subject>
+<dc:subject>SURGERY</dc:subject>
+<dc:subject>TEACHING HOSPITALS</dc:subject>
+<dc:subject>TECHNICAL ASSISTANCE</dc:subject>
+<dc:subject>TETANUS</dc:subject>
+<dc:subject>TRAINING OPPORTUNITIES</dc:subject>
+<dc:subject>TREATMENT</dc:subject>
+<dc:subject>URBAN AREAS</dc:subject>
+<dc:subject>URBAN BIAS</dc:subject>
+<dc:subject>URBAN POPULATIONS</dc:subject>
+<dc:subject>VICTIMS</dc:subject>
+<dc:subject>WORKERS</dc:subject>
+<dc:subject>WORKING CONDITIONS</dc:subject>
+<dc:subject>WORKPLACE</dc:subject>
+<dc:subject>WORLD HEALTH ORGANIZATION</dc:subject>
+<dc:subject>YOUNG WOMEN</dc:subject>
+<dc:description>Health indicators in Ethiopia,
+            particularly on child health and malaria, have improved
+            significantly in recent years, with the next challenge now
+            focused on improving maternal health indicators.
+            Improvements in child health and malaria in particular can
+            be attributed to strong government commitment towards health
+            results, reflected in a number of notable policies and
+            programs related to Human Resources for Health (HRH), in
+            particular the health extension worker program. However,
+            indicators related to maternal health remain problematic.
+            Ethiopia has one of the lowest levels of assisted deliveries
+            in the region. Although increases in the number of health
+            workers particularly in rural areas may have contributed to
+            improving access to some health services, it is in the
+            government's interest to further improve the stock,
+            distribution, and performance of relevant health workers in
+            Ethiopia, particularly to bring about improvement in access
+            to maternal health services for the poor. This document
+            reviews the current HRH situation in Ethiopia, summarizes
+            the evidence on population use of select health services,
+            and offers relevant policy options to assist the government
+            finalize its new human resources strategy and address
+            remaining health challenges.</dc:description>
+<dc:identifier>978-0-8213-8984-3</dc:identifier>
+<dc:identifier>http://hdl.handle.net/10986/2226</dc:identifier>
+<dc:relation>World Bank Study</dc:relation>
+<dc:rights>http://creativecommons.org/licenses/by/3.0/igo</dc:rights>
+<dc:rights>World Bank</dc:rights>
+<dc:rights>CC BY 3.0 IGO</dc:rights>
+<dc:publisher>World Bank</dc:publisher>
+<dc:identifier xsi:type="dcterms:URI">https://openknowledge.worldbank.org/bitstream/handle/10986/2226/662180PUB0EPI00pia0health0workforse.pdf?sequence=1</dc:identifier>
+<uketdterms:checksum xsi:type="uketdterms:MD5">2ac2b2965c00ffc15d3396af55a63589</uketdterms:checksum>
+<dc:identifier xsi:type="dcterms:URI">https://openknowledge.worldbank.org/bitstream/handle/10986/2226/662180PUB0EPI00pia0health0workforse.txt?sequence=2</dc:identifier>
+<uketdterms:checksum xsi:type="uketdterms:MD5">692306b15d80c41339b1c580a70c9039</uketdterms:checksum>
+<dc:identifier xsi:type="dcterms:URI">https://openknowledge.worldbank.org/bitstream/handle/10986/2226/license.txt?sequence=3</dc:identifier>
+<uketdterms:checksum xsi:type="uketdterms:MD5">8a4605be74aa9ea9d79846c1fba20a33</uketdterms:checksum>
+<dc:identifier xsi:type="dcterms:URI">https://openknowledge.worldbank.org/bitstream/handle/10986/2226/662180PUB0EPI00pia0health0workforse.pdf.jpg?sequence=4</dc:identifier>
+<uketdterms:checksum xsi:type="uketdterms:MD5">c390ceee624a89ed92c75fb217dd26ee</uketdterms:checksum>
+</uketd_dc:uketddc>
+</metadata>
+</record>
