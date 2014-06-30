@@ -132,7 +132,7 @@ class Processer(object):
         Method for initializing a json file.
         '''
         with open(filePath, mode='w') as f:
-            json.dump({"67790": {"1": {"kwh": 319.4}}}, f)
+            json.dump({}, f)
 
     def save2json(self, filePath, recordDict):
         '''
@@ -222,6 +222,7 @@ if __name__ == "__main__":
         jsonRecord = {okr_id: record}
 
         with open(filePath) as f:
+            print f
             data = json.load(f)
 
         data.update(jsonRecord)
