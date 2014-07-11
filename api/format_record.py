@@ -17,9 +17,9 @@ import json
 
 class Formatter(object):
 
-    def __init__(self, record):
-        self.record = dict(json.loads(record))
-        self.sumitSchema = {
+    def formatRecord(self, record):
+        self.record = record
+        return {
             'okrID': self.getId(),
             'uri': self.getUri(),
             'issueDate': self.getDate(),
@@ -33,18 +33,21 @@ class Formatter(object):
             'licenseUrl': self.getLicense()
         }
 
-    def formatRecord(self):
-        return {key: self.sumitSchema[key] for key in self.sumitSchema}
-
     def getId(self):
-        assert len(self.record['relation']) == 1,\
-            "\'_id\' tag contains more than one relation"
-        return self.record['_id'][0]
+        if len(self.record['okrID']) == 1:
+            return self.record['okrID'][0]
+        elif len(self.record['okrID']) > 1:
+            print "'id' tag contains more than one id,\
+                storing both id's for later verification"
+            return self.record['okrID']
 
     def getUri(self):
-        assert len(self.record['uri']) == 1,\
-            "\'uri\' tag contains more than one relation"
-        return self.record['uri'][0]
+        if len(self.record['uri']) == 1:
+            return self.record['uri'][0]
+        elif len(self.record['uri']) > 1:
+            print "'uri' tag contains more than one uri,\
+                storing both uri's for later verification"
+            return self.record['uri']
 
     def getDate(self):
         '''
@@ -53,19 +56,23 @@ class Formatter(object):
         return self.record['dates'][0]
 
     def getPubType(self):
-        assert len(self.record['relation']) == 1,\
-            "\'relation\' tag contains more than one relation"
-        return self.record['relation'][0]
+        return self.record['relation']
 
     def getAbstract(self):
-        description = self.record['description']
-        assert len(description) == 1, "description has multiple elements"
-        return self.cleanText(description[0])
+        try:
+            description = self.record['description']
+            return self.cleanText(description[0])
+        except:
+            print 'this record has no description'
+            return 'n/a'
 
     def getTitle(self):
         title = self.record['title']
-        assert len(title) == 1, "title has multiple elements"
-        return self.cleanText(title[0])
+        if len(title) == 1:
+            return self.cleanText(title[0])
+        elif len(title) > 1:
+            print "title has multiple elements"
+            return [self.cleanText(t) for t in title]
 
     def cleanText(self, text):
         '''
@@ -103,10 +110,10 @@ class Formatter(object):
 
 if __name__ == '__main__':
 
-    with open('../local_DS/sampleResponse.json') as dataFile:
+    with open('../local_DS/sampleResponse.nrjson') as dataFile:
         lines = dataFile.readlines()
 
-    formatter = Formatter(lines[2])
+    formatter = Formatter()
     '''
     #### Test getDescription method ####
     print formatter.getDescription()
@@ -118,4 +125,4 @@ if __name__ == '__main__':
     print formatter.getLicense()
     '''
 
-    print formatter.formatRecord()
+    print formatter.formatRecord(lines[2])
