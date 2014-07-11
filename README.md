@@ -10,7 +10,7 @@ each of which handle a broad purpose in the pipeline:
 1. **Querying** - Creating the API query url and making HTTP requests to the OKR server
 2. **Processing** - Converting xml to dictionary/json format
 3. **Formatting** - Modifying the uketd dublin core schema to fit sumit-okr schema
-4. **Flow Control** - A class that handles flow control of HTTP requests through resumption tokens
+4. **Flow Control Pipeline** - A class that handles flow control of HTTP requests through resumption tokens
 5. **Database Syncing** - A class that handles syncing json data to a Mongo document database.
 
 # Access to subset of dataset (100 publications)
