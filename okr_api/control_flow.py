@@ -81,7 +81,7 @@ class FlowController(object):
         '''
         Method that saves multiple documents to file
 
-        *connector* takes a function as an argument that saves file to
+        *connector* is a function as an argument that saves file to
         to a cloud server storage system, e.g. aws-s3.
 
         The connector function should be able to handle the http calls
