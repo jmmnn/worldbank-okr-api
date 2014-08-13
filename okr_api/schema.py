@@ -42,7 +42,7 @@ requestArgs = [
 
 #Header schema for OKR records
 schemaHeader = {
-    'okr_id': 'identifier',
+    'okrID': 'identifier',
     'setSpecs': 'setSpec'
 }
 

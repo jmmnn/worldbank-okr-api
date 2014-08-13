@@ -14,12 +14,13 @@ SUMIT-OKR Schema:
 
 '''
 
+import os
 import bs4
 import json
 from schema import schemaHeader, schemaMetadata
 
 
-class Processer(object):
+class Processor(object):
 
     def __init__(self, response, responseFormat, soupifyResponse=False):
         self.format = responseFormat
@@ -36,7 +37,6 @@ class Processer(object):
 
         # counter attributes for iterating through responses and queries
         self.cursor = None  # cursor is a tag element in a OKR query response
-        self.totalRecordCount = 0  # total records processed by Processor class
         self.recordCount = 0  # total records processed within response
 
         # calling method to soupify the xml response and getRecordList
@@ -97,7 +97,7 @@ class Processer(object):
         '''
         return json.dumps(recordDict)
 
-    def processResponse(self, count=None):
+    def processResponse(self, count=None, processFormat='json'):
         '''
         A generator method for processing a query response
 
@@ -111,21 +111,20 @@ class Processer(object):
         else:
             size = self.completeListSize
         for i in range(size):
-            yield self.processRecord(self.recordList[i])
+            if processFormat == 'json':
+                yield self.processRecord(self.recordList[i])
+            if processFormat == 'xml':
+                yield self.recordList[i]
 
     def save2file(self, filePath, record):
         '''
         A method for saving a record to file
         '''
-        with open(filePath, 'w') as recordFile:
-            recordFile.write(record)
-
-    def append2file(self, filePath, record):
-        '''
-        A method for appending a record to file.
-        '''
-        with open(filePath, 'a') as recordFile:
-            recordFile.write('\n%s' % record)
+        with open(filePath, 'r+') as recordFile:
+            if len(recordFile.readlines()) == 0:
+                recordFile.write(record)
+            else:
+                recordFile.write('\n%s' % record)
 
     def initJson(self, filePath):
         '''
@@ -139,9 +138,8 @@ class Processer(object):
         Saves individual json objects to json file
         specified in filePath
         '''
-        with open(filePath, 'w') as f:
-            print f
-            data = json.loads(f)
+        with open(filePath) as f:
+            data = json.load(f)
 
         data.update(recordDict)
 
@@ -158,7 +156,7 @@ class Processer(object):
 if __name__ == "__main__":
 
     with open('./sampleData/sampleResponse.xml') as response:
-        data = Processer(response.read(), 'xml', soupifyResponse=True)
+        data = Processor(response.read(), 'xml', soupifyResponse=True)
 
     #print data.getResumptionToken()
     '''
@@ -185,7 +183,7 @@ if __name__ == "__main__":
         print record
 
 
-    #### Test script for saving json records to .nrjson format
+    #### Test script for saving json records to .nrjson format ####
 
     #------------------------------------------------#
     # .nrjson == "not really json"                   #
@@ -204,28 +202,21 @@ if __name__ == "__main__":
         else:
             data.append2file(filePath, line)
         count += 1
-    '''
 
-    #### Test script for saving json records in .json format
+
+    #### Test script for saving json records in .json format ####
 
     # count is an optional argument for specifying how
     # many records to process in the response.
     # by default, processes the entire response
 
     recordGen = data.processResponse(count=100)
-    filePath = '../local_DS/sampleResponse.json'
+    filePath = '../local_DS/test.json'
 
     data.initJson(filePath)
 
     for record in recordGen:
         okr_id = record['okr_id'][0]
         jsonRecord = {okr_id: record}
-
-        with open(filePath) as f:
-            print f
-            data = json.load(f)
-
-        data.update(jsonRecord)
-
-        with open(filePath, 'w') as f:
-            json.dump(data, f)
+        data.save2json(filePath, jsonRecord)
+    '''
